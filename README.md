@@ -1,4 +1,5 @@
-# mla-projects
+# nuxt-firebase
+nuxtとtypescriptとfirebaseを用いたwebサイトのテンプレート
 
 ## Build Setup
 
