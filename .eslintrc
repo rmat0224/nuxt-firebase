@@ -1,0 +1,22 @@
+{
+  "root": true,
+  "env": {
+      "browser": true,
+      "node": true
+  },
+  "extends": [
+      "@nuxtjs/eslint-config-typescript",
+      "plugin:prettier/recommended",
+      "prettier",
+      "prettier/vue"
+  ],
+  "plugins": [
+      "vue"
+  ],
+  "rules": {
+      "vue/html-closing-bracket-newline": "off",
+      "space-before-function-paren": 0,
+      "semi": ["error", "always"]
+  },
+  "ignorePatterns": ["node_modules/", "dist/", "public/"]
+}

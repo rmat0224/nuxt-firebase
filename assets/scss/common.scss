@@ -1,0 +1,16 @@
+h1 {
+  font-size: 2em;
+}
+
+.container {
+  margin-top: 20px;
+  overflow-y: scroll;
+  display: block;
+  height: 100vh;
+}
+
+.nuxt-link-active {
+  div {
+    color: #4169e1;
+  }
+}

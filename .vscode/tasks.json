@@ -1,0 +1,37 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "⚙ lint実行",
+            "type": "shell",
+            "command": "nvm use && yarn run lint"
+        },
+        {
+            "label": "⚙ ビルド実行",
+            "type": "shell",
+            "command": "nvm use && yarn run build"
+        },
+        {
+            "label": "🤖 開発サーバ起動",
+            "type": "shell",
+            "command": "nvm use && yarn run dev"
+        },
+        {
+          "label": "⚙ 静的ファイル生成",
+          "type": "shell",
+          "command": "nvm use && yarn run generate"
+        },
+        {
+            "label": "🤖 静的サーバ起動",
+            "type": "shell",
+            "command": "nvm use && yarn run start"
+        },
+        // {
+        //     "label": "🚨 Firebaseデプロイ",
+        //     "type": "shell",
+        //     "command": "firebase deploy --only hosting:HOSTING"
+        // }
+    ]
+}

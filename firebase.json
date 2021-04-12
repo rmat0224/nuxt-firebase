@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "public",
+    "site": "niku-de-retake",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
